@@ -22,7 +22,7 @@ It is a free open source cross platform document oriented database. It is referr
 By using current vehicle location (Latitude, Longitude) and Bearing (Compass reading of vehicle movement in opposite direction), we can find extreme location of accident prone region at some distance behind the vehicle.
 
 ###Relative Speed Checker:
-It can detect the relative speed difference between current vehicle by previous position and speed of nearby vehicle and add accident prone vehicles to danger list.
+It can detect the relative speed difference between current vehicle by previous position and speed of nearby vehicle using GPS system and identify accident prone vehicles using Greater Circle Geodesic formula.
 
 ###Notification Sender: 
 Identifying the positions of the vehicles from neighborhood when relative speed difference is identified and sending alert messages to the drivers mobile using Firebase Push Server.
